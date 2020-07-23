@@ -181,7 +181,7 @@ function filterByWord(array, flavor){
     var filteredArray =[];
 
     for(let i=0; i<array.length; i++){
-        if(array[i].includes(flavor)===true){
+        if(array[i].includes(flavor)){
             filteredArray.unshift(array[i]);
         }
     }
